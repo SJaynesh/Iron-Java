@@ -1,0 +1,29 @@
+1. Initialization :
+git init
+       
+2. Connect to GitHub repository :
+git remote add origin [YOUR REPO’s LINK]
+  
+3. Log In :
+git config [--global] user.email "your@email.address"
+git config [--global] user.name "UserName"
+
+4. Add credentials :
+git config [--global] credential.email "your@email.address"
+git config [--global] credential.username "UserName"
+	
+5. Uploadation :
+	Select files :
+		git add .
+
+	Generate commit id :
+		git commit -m "message"
+
+	Push data :
+		git push [var-name] [branch-name]
+		
+		var-name : origin
+		branch-name : Windows => master | Mac, Linux => main
+
+
+
